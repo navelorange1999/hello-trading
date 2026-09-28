@@ -1,16 +1,17 @@
 # Hello Trading — Learning Checklist
 
-> 目标：建立可持续迭代的投资 / 交易思维，而不是只完成工程项目。
+> 目标：建立可持续迭代的投资 / 交易思维，而不是按日历完成课程。
 
-## A. CFA / CPA 学习主线
+## A. CFA / CPA Knowledge Nodes
 
-### Phase 0 — Baseline
+### Node 0 — Baseline
 - [ ] 完成 CFA FSA / Equity / Corporate Finance / Economics 试学
-- [ ] 完成第一次 50 题混合测试
+- [ ] 完成第一次混合题测试
 - [ ] 创建 Error Log
 - [ ] 完成第一份 Investment Note
+- [ ] 列出当前最弱的 3 个知识域
 
-### Phase 1 — Financial Statement Analysis
+### Node 1 — Financial Statement Analysis
 - [ ] 三大报表及联动
 - [ ] Revenue Recognition
 - [ ] Expense Recognition / Capitalization
@@ -21,7 +22,7 @@
 - [ ] CPA：收入、存货、固定资产、无形资产、减值、所得税
 - [ ] 完成 1 家公司的利润质量分析
 
-### Phase 2 — Equity + Corporate Finance
+### Node 2 — Equity + Corporate Finance
 - [ ] Industry / Company Analysis
 - [ ] PE / PB / EV/EBITDA / FCF Yield
 - [ ] DCF 基础
@@ -30,9 +31,9 @@
 - [ ] Leverage
 - [ ] Corporate Governance
 - [ ] CPA：长期股权投资、合并、商誉、合并报表
-- [ ] 完成 Investment Note #2
+- [ ] 完成一份包含 expectation gap 的 Investment Note
 
-### Phase 3 — Economics + Fixed Income
+### Node 3 — Economics + Fixed Income
 - [ ] Supply / Demand
 - [ ] Business Cycle
 - [ ] Inflation
@@ -42,9 +43,9 @@
 - [ ] Yield Curve
 - [ ] Duration
 - [ ] Credit Risk
-- [ ] 每周完成 1 次 Macro Expectation Gap
+- [ ] 完成一个宏观事件的 Expectation Gap
 
-### Phase 4 — Quant + Portfolio
+### Node 4 — Quant + Portfolio
 - [ ] Time Value of Money
 - [ ] Probability
 - [ ] Statistics
@@ -55,13 +56,20 @@
 - [ ] Portfolio Construction
 - [ ] 用自己的真实持仓做一次组合诊断
 
-### Phase 5 — Derivatives / Alternatives / Ethics
+### Node 5 — Derivatives / Alternatives / Ethics
 - [ ] Futures / Forwards
 - [ ] Options
 - [ ] Swaps
 - [ ] Hedging
 - [ ] Alternative Investments
 - [ ] Ethics
+
+### Node 6 — Integration
+- [ ] 完整分析一家真实公司
+- [ ] 区分事实 / 假设 / 推断 / 市场预期
+- [ ] 写清关键估值假设
+- [ ] 写清 falsification conditions
+- [ ] 做一次完整 Decision Review
 
 ### CFA Registration Gate
 - [ ] Level I 第一轮完成
@@ -76,7 +84,7 @@
 
 ## B. Company Research
 
-每月至少 1 家：
+每完成一个公司研究节点：
 
 - [ ] Business Model
 - [ ] Industry & Competition
@@ -96,7 +104,7 @@
 
 ## C. Market Thinking
 
-每周至少一次：
+遇到值得研究的重要事件时：
 
 - [ ] Fact
 - [ ] Consensus
@@ -106,7 +114,7 @@
 - [ ] Second-order impact
 - [ ] Market reaction
 - [ ] What would change my mind?
-- [ ] 1 周 / 1 月 / 3 月后复盘
+- [ ] 在 thesis 关键节点回看判断
 
 模板：[`07-market-thinking/templates/expectation-gap.md`](07-market-thinking/templates/expectation-gap.md)
 
@@ -114,13 +122,14 @@
 
 ## D. Review System
 
-每月：
-- [ ] 汇总 CFA / CPA 进度
-- [ ] 统计错题类型
-- [ ] 找出最常见的 3 个错误
+每完成一个重要知识 / 研究 / 决策节点：
+
+- [ ] 汇总 CFA / CPA 新增理解
+- [ ] 统计主要错误类型
+- [ ] 找出重复错误
 - [ ] 区分 Good Decision / Lucky Outcome
 - [ ] 记录 Beliefs Updated
-- [ ] 下个月只设置 3 个核心目标
+- [ ] 定义下一个最重要知识节点
 
 ---
 
@@ -159,6 +168,6 @@
 ### Chapter 5 — Trading System
 - [ ] Paper Trading
 - [ ] Decision / Trading Journal
-- [ ] 周度 / 月度复盘
+- [ ] 节点复盘
 - [ ] 行为模式分析
 - [ ] 规则迭代
