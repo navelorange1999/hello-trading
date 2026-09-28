@@ -21,6 +21,17 @@
 
 一笔赚钱交易可能违反规则；一笔亏钱交易也可能是合理决策。
 
+## 什么时候复盘
+
+不要求固定周 / 月节奏。出现这些节点时做 Milestone Review：
+
+- 完成一个 CFA / CPA 知识模块；
+- 完成一家公司研究；
+- 一个重要 thesis 被验证或证伪；
+- 完成一次完整 Mock；
+- 出现重复错误；
+- 一个持仓逻辑发生实质变化。
+
 模板：
 - [Error Log](templates/error-log.md)
-- [Monthly Review](templates/monthly-review.md)
+- [Milestone Review](templates/milestone-review.md)
