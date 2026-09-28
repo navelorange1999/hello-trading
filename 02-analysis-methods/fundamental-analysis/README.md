@@ -127,3 +127,47 @@
 这两种方法能结合吗？比如：用基本面筛选好公司，用技术分析选择买入时机？
 
 这正是很多成功投资者的实际做法。在 Chapter 3 中，你将把这些分析方法变成可量化、可回测的策略。
+
+
+---
+
+# 与新学习主线的连接
+
+这个项目现在不再只是“做一个基本面工具”，而是 **CFA Financial Statement Analysis + Equity 的实践实验室**。
+
+建议把任务顺序调整为：
+
+1. 先用 CFA 学三大报表和财报分析框架；
+2. 用 CPA《会计》解释收入、存货、固定资产、减值等底层处理；
+3. 再用这里的代码获取和计算真实数据；
+4. 最后写一份 [Investment Note](../../06-company-research/templates/investment-note.md)。
+
+## 新增思考：从 Value 到 Expectation
+
+不要只问：
+- PE 低不低？
+- DCF 内在价值是多少？
+
+必须同时问：
+
+- 市场当前隐含了什么增长预期？
+- 当前利润是不是周期高点 / 低点？
+- 估值差异是机会，还是你的模型漏掉了风险？
+- 如果公司基本面很好但股价不涨，市场可能提前预期了什么？
+
+建议每完成一次估值，同时填写一份：
+[Expectation Gap](../../07-market-thinking/templates/expectation-gap.md)
+
+## 建议新增指标
+
+除了原来的 PE / PB / ROE，逐步加入：
+
+- ROIC
+- FCF / FCF Yield
+- Net Debt / EBITDA
+- CFO / Net Income
+- CapEx / Revenue
+- Share-based Compensation（适用时）
+- Working Capital 变化
+
+最终目标不是“一键给股票打分”，而是让工具帮助你更快发现值得进一步研究的问题。
