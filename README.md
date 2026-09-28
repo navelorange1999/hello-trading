@@ -84,37 +84,28 @@ CPA 不作为第二条应试主线，而作为 **财务深挖工具**，重点�
 
 ---
 
-## 推荐学习比例
+## 学习推进原则
 
-长期阶段：
+这个仓库**不设置固定 duration**。
 
-- **70% CFA**
-- **15% CPA《会计》**
-- **15% 公司 / 市场实践**
+不同阶段的工作、市场环境、理解难度都不同，因此不要求“第几周必须完成第几章”。推进依据是：
 
-正式进入 CFA 考前冲刺后：
+1. 当前知识节点是否理解；
+2. 是否能做对相应题目；
+3. 是否能用真实公司 / 市场案例解释；
+4. 是否能写出自己的判断；
+5. 是否完成复盘并修正错误。
 
-- **90% CFA**
-- **10% 复盘 / 轻量实践**
-- CPA 暂停或极低频
+建议长期保持大致主次关系：
 
----
+- **CFA：主线**
+- **CPA《会计》：深挖**
+- **公司 / 市场实践：验证**
+- **Engineering Lab：按问题调用**
 
-## 每周节奏
+学习的最小闭环不是“花了多少小时”，而是：
 
-建议每周投入约 8 小时：
-
-| 时间 | 内容 |
-|---|---|
-| 3 × 1h | CFA 新知识 |
-| 1 × 1h | CFA 题目 / 错题 |
-| 1 × 1h | CPA 深挖一个财务主题 |
-| 1 × 2h | 公司 / 行业研究 |
-| 1 × 1h | 周度复盘、预期差训练 |
-
-学习的最小闭环不是“看完一章”，而是：
-
-> 学到一个概念 → 做题 → 用真实案例解释 → 写下判断 → 一段时间后复盘
+> 学到一个概念 → 做题 → 用真实案例解释 → 写下判断 → 复盘 → 更新 mental model
 
 ---
 
@@ -131,7 +122,7 @@ CPA 不作为第二条应试主线，而作为 **财务深挖工具**，重点�
 - [ ] 有持续维护的 Error Log
 - [ ] 自己能说清楚最薄弱的 3 个 Topic
 
-> 注：这里的分数线是个人训练 Gate，不代表 CFA Institute 官方通过线。
+> 注：这里的标准是个人训练 Gate，不代表 CFA Institute 官方通过线。
 
 ---
 
@@ -149,21 +140,22 @@ CPA 不作为第二条应试主线，而作为 **财务深挖工具**，重点�
 
 ---
 
-## 每月最低产出
+## 节点产出
 
-每个月至少完成：
+不规定按周或按月产出，而是在知识和研究节点完成时留下可复用成果：
 
-- 1 份 [Investment Note](06-company-research/templates/investment-note.md)
-- 4 次 [Expectation Gap 训练](07-market-thinking/templates/expectation-gap.md)
-- 1 次 [Monthly Review](08-review-system/templates/monthly-review.md)
-- 持续维护 [Error Log](08-review-system/templates/error-log.md)
+- [Investment Note](06-company-research/templates/investment-note.md)
+- [Expectation Gap](07-market-thinking/templates/expectation-gap.md)
+- [Error Log](08-review-system/templates/error-log.md)
+- [Milestone Review](08-review-system/templates/milestone-review.md)
 
-一年后，比“看了多少书”更重要的是：
+真正重要的不是“完成了多少任务”，而是：
 
 - 你研究过哪些公司；
 - 哪些判断后来被证伪；
 - 你最常犯什么错误；
-- 你在哪些行业逐渐形成了可迁移的认知。
+- 哪些知识已经能迁移到新问题；
+- 哪些观点因为新证据而发生更新。
 
 ---
 
@@ -183,8 +175,8 @@ CPA 不作为第二条应试主线，而作为 **财务深挖工具**，重点�
 第一次打开仓库时：
 
 1. 阅读 [00-roadmap](00-roadmap/)
-2. 创建第一份公司研究：[Investment Note Template](06-company-research/templates/investment-note.md)
-3. 开始维护 [Error Log](08-review-system/templates/error-log.md)
-4. 每周完成一次 [Expectation Gap](07-market-thinking/templates/expectation-gap.md)
-5. 再根据需要进入原有 Chapter 1–5 做工程实验
-
+2. 选择当前最需要的知识节点
+3. 建立第一份公司研究：[Investment Note Template](06-company-research/templates/investment-note.md)
+4. 开始维护 [Error Log](08-review-system/templates/error-log.md)
+5. 遇到重要事件时填写 [Expectation Gap](07-market-thinking/templates/expectation-gap.md)
+6. 再根据研究问题进入原有 Chapter 1–5 做工程实验
