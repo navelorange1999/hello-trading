@@ -45,8 +45,15 @@
 
 ## 9. What would change my mind?
 
-## 10. Review later
+## 10. Review checkpoints
 
-- 1 week:
-- 1 month:
-- 3 months:
+不按固定日期复盘，而是在 thesis 发生变化时更新：
+
+### Early signal
+最早出现了什么验证 / 证伪信号？
+
+### Material update
+哪条新信息实质改变了盈利、估值、供需或市场预期？
+
+### Thesis resolution
+最终哪些判断成立？哪些不成立？为什么？
