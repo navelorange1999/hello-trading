@@ -1,115 +1,164 @@
-# Hello Trading — 交易学习路线总清单
+# Hello Trading — Learning Checklist
 
-> 目标：从「有实操直觉但缺系统知识」到「能构建并运行自己的规则化交易系统」
-> 技术栈：Python (pandas, numpy, matplotlib, yfinance, ccxt)
-> 适用市场：A 股 / 美股 / 加密货币
+> 目标：建立可持续迭代的投资 / 交易思维，而不是只完成工程项目。
 
----
+## A. CFA / CPA 学习主线
 
-## Chapter 1: 市场运作原理与数据基础
+### Phase 0 — Baseline
+- [ ] 完成 CFA FSA / Equity / Corporate Finance / Economics 试学
+- [ ] 完成第一次 50 题混合测试
+- [ ] 创建 Error Log
+- [ ] 完成第一份 Investment Note
 
-> 在你能从市场赚钱之前，先搞懂市场本身是怎么运转的。
+### Phase 1 — Financial Statement Analysis
+- [ ] 三大报表及联动
+- [ ] Revenue Recognition
+- [ ] Expense Recognition / Capitalization
+- [ ] Inventory
+- [ ] Long-lived Assets
+- [ ] Income Taxes
+- [ ] Financial Reporting Quality
+- [ ] CPA：收入、存货、固定资产、无形资产、减值、所得税
+- [ ] 完成 1 家公司的利润质量分析
 
-### 1.1 迷你交易所 [`01-market-and-data/mini-exchange/`]
+### Phase 2 — Equity + Corporate Finance
+- [ ] Industry / Company Analysis
+- [ ] PE / PB / EV/EBITDA / FCF Yield
+- [ ] DCF 基础
+- [ ] Cost of Capital
+- [ ] Capital Allocation
+- [ ] Leverage
+- [ ] Corporate Governance
+- [ ] CPA：长期股权投资、合并、商誉、合并报表
+- [ ] 完成 Investment Note #2
 
-- [ ] 理解订单簿结构，实现限价单数据模型
-- [ ] 实现撮合引擎核心逻辑（价格优先、时间优先）
-- [ ] 支持市价单，观察价格冲击效应
-- [ ] 模拟多个交易者行为，观察价格如何形成
-- [ ] 可视化订单簿深度图和成交记录
+### Phase 3 — Economics + Fixed Income
+- [ ] Supply / Demand
+- [ ] Business Cycle
+- [ ] Inflation
+- [ ] Monetary / Fiscal Policy
+- [ ] FX
+- [ ] Bond Pricing / Yield
+- [ ] Yield Curve
+- [ ] Duration
+- [ ] Credit Risk
+- [ ] 每周完成 1 次 Macro Expectation Gap
 
-### 1.2 市场数据管道 [`01-market-and-data/market-data-pipeline/`]
+### Phase 4 — Quant + Portfolio
+- [ ] Time Value of Money
+- [ ] Probability
+- [ ] Statistics
+- [ ] Correlation
+- [ ] Regression
+- [ ] Expected Return / Risk
+- [ ] Diversification
+- [ ] Portfolio Construction
+- [ ] 用自己的真实持仓做一次组合诊断
 
-- [ ] 获取股票和加密货币的历史 OHLCV 数据
-- [ ] 数据清洗与持久化存储（处理缺失值、停牌、拆股）
-- [ ] 从零绘制 K 线图（不用现成绘图库的 K 线函数）
-- [ ] 计算基础统计量：收益率分布、波动率、资产相关性
-- [ ] 封装为可复用的数据获取模块
+### Phase 5 — Derivatives / Alternatives / Ethics
+- [ ] Futures / Forwards
+- [ ] Options
+- [ ] Swaps
+- [ ] Hedging
+- [ ] Alternative Investments
+- [ ] Ethics
 
----
-
-## Chapter 2: 分析方法论
-
-> 两大分析流派各有什么道理？先亲手实现，再决定你信哪个。
-
-### 2.1 技术指标实验室 [`02-analysis-methods/technical-indicators/`]
-
-- [ ] 从零实现移动平均线（SMA、EMA），理解其数学本质
-- [ ] 实现 RSI 和 MACD，理解动量与趋势的区别
-- [ ] 实现布林带，理解波动率通道的含义
-- [ ] 将所有指标叠加到你自己画的 K 线图上
-- [ ] 用数据验证一个常见说法（如「金叉必涨」「RSI 超卖必反弹」）
-
-### 2.2 基本面分析工具 [`02-analysis-methods/fundamental-analysis/`]
-
-- [ ] 获取上市公司财务报表数据
-- [ ] 计算关键财务比率（PE、PB、ROE、资产负债率等）
-- [ ] 实现一个简化版 DCF 估值模型
-- [ ] 构建一个多条件股票筛选器
-- [ ] 对比你的估值结果与市场价格，分析差异
-
----
-
-## Chapter 3: 策略设计与回测
-
-> 点子不值钱，能经受历史检验的点子才值钱。
-
-### 3.1 回测引擎 [`03-strategy-and-backtesting/backtesting-engine/`]
-
-- [ ] 设计回测引擎的核心架构（事件驱动 vs 向量化）
-- [ ] 实现基于事件驱动的回测循环
-- [ ] 加入交易成本和滑点的真实模拟
-- [ ] 实现绩效指标计算（夏普比率、最大回撤、胜率、盈亏比）
-- [ ] 生成回测报告：资金曲线、交易明细、关键指标汇总
-
-### 3.2 经典策略实战 [`03-strategy-and-backtesting/classic-strategies/`]
-
-- [ ] 实现并回测双均线交叉策略
-- [ ] 实现并回测均值回归策略（布林带突破 / 配对交易）
-- [ ] 实现并回测动量/趋势跟踪策略
-- [ ] 对比三个策略在牛市、熊市、震荡市中的表现
-- [ ] 尝试参数优化，亲眼观察过拟合现象
-
----
-
-## Chapter 4: 风险管理与资产配置
-
-> 「你能赚多少取决于市场，你能亏多少取决于自己。」
-
-### 4.1 风险度量仪表盘 [`04-risk-and-portfolio/risk-dashboard/`]
-
-- [ ] 计算 VaR（Value at Risk）和 CVaR
-- [ ] 实现最大回撤的计算与可视化
-- [ ] 实现仓位管理算法（固定比例法、凯利公式）
-- [ ] 模拟不同仓位管理策略下的长期资金曲线
-- [ ] 构建一个风险监控面板（整合多个风险指标）
-
-### 4.2 投资组合优化器 [`04-risk-and-portfolio/portfolio-optimizer/`]
-
-- [ ] 计算多资产的收益率、波动率和相关性矩阵
-- [ ] 实现马科维茨均值-方差模型，画出有效前沿
-- [ ] 实现并对比：等权重、最小方差、风险平价、最大夏普
-- [ ] 用你自己的真实持仓做一次组合诊断
-- [ ] 设计一个符合你目标和风险偏好的配置方案
+### CFA Registration Gate
+- [ ] Level I 第一轮完成
+- [ ] 章节题大部分完成
+- [ ] 至少 2 次完整模拟
+- [ ] 英文阅读基本不依赖翻译
+- [ ] 至少 4 份 Investment Note
+- [ ] 持续维护 Error Log
+- [ ] 能说清楚自己的 3 个最弱模块
 
 ---
 
-## Chapter 5: 交易系统整合
+## B. Company Research
 
-> 把前四章学到的一切串成一个能「替你值班」的系统。
+每月至少 1 家：
 
-### 5.1 模拟交易系统 [`05-trading-system/paper-trading-system/`]
+- [ ] Business Model
+- [ ] Industry & Competition
+- [ ] 5–10 年财务趋势
+- [ ] ROE / ROIC
+- [ ] FCF
+- [ ] Capital Allocation
+- [ ] Valuation
+- [ ] What is priced in?
+- [ ] Expectation Gap
+- [ ] Falsification conditions
+- [ ] Post-mortem
 
-- [ ] 设计端到端系统架构：数据 → 信号 → 执行 → 监控
-- [ ] 实现信号生成模块，接入你在 Chapter 3 写的策略
-- [ ] 实现模拟执行引擎和持仓管理
-- [ ] 实现监控与告警（异常检测、消息通知）
-- [ ] 运行至少一周的模拟交易，记录并分析结果
+模板：[`06-company-research/templates/investment-note.md`](06-company-research/templates/investment-note.md)
 
-### 5.2 交易日志与复盘系统 [`05-trading-system/trading-journal/`]
+---
 
-- [ ] 设计交易日志的数据模型（不只是买卖记录）
-- [ ] 实现自动记录每笔交易的完整上下文
-- [ ] 生成周度/月度复盘报告
-- [ ] 分析你自己的交易行为模式（什么情况下决策质量高/低）
-- [ ] 基于复盘洞察，迭代优化策略参数或规则
+## C. Market Thinking
+
+每周至少一次：
+
+- [ ] Fact
+- [ ] Consensus
+- [ ] Price-in
+- [ ] Surprise
+- [ ] First-order impact
+- [ ] Second-order impact
+- [ ] Market reaction
+- [ ] What would change my mind?
+- [ ] 1 周 / 1 月 / 3 月后复盘
+
+模板：[`07-market-thinking/templates/expectation-gap.md`](07-market-thinking/templates/expectation-gap.md)
+
+---
+
+## D. Review System
+
+每月：
+- [ ] 汇总 CFA / CPA 进度
+- [ ] 统计错题类型
+- [ ] 找出最常见的 3 个错误
+- [ ] 区分 Good Decision / Lucky Outcome
+- [ ] 记录 Beliefs Updated
+- [ ] 下个月只设置 3 个核心目标
+
+---
+
+## E. Engineering Lab
+
+原有项目继续保留，但优先级改为：**服务于研究问题，而不是为了造系统而造系统。**
+
+### Chapter 1 — Market & Data
+- [ ] 订单簿 / 撮合
+- [ ] 市场数据管道
+- [ ] 收益率 / 波动率 / 相关性
+
+### Chapter 2 — Analysis Methods
+- [ ] 技术指标实验
+- [ ] 财务数据获取
+- [ ] 财务比率
+- [ ] DCF
+- [ ] 股票筛选
+- [ ] 估值与预期差分析
+
+### Chapter 3 — Strategy & Backtesting
+- [ ] 回测引擎
+- [ ] 交易成本 / 滑点
+- [ ] 前视偏差 / 幸存者偏差
+- [ ] 过拟合
+- [ ] 市场状态拆分
+
+### Chapter 4 — Risk & Portfolio
+- [ ] 最大回撤
+- [ ] VaR / CVaR
+- [ ] 仓位管理
+- [ ] 相关性
+- [ ] 有效前沿 / 风险平价
+- [ ] 持仓压力测试
+
+### Chapter 5 — Trading System
+- [ ] Paper Trading
+- [ ] Decision / Trading Journal
+- [ ] 周度 / 月度复盘
+- [ ] 行为模式分析
+- [ ] 规则迭代
