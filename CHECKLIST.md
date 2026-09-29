@@ -12,8 +12,10 @@
 - [ ] 列出当前最弱的 3 个知识域
 
 ### Node 1 — Financial Statement Analysis
-- [ ] 三大报表及联动
+- [x] 三大报表及联动
 - [ ] Revenue Recognition
+- [x] Net Income → CFO 基础调整：Depreciation / AR / Inventory / AP
+- [x] CFO 与 FCF 的基础区别
 - [ ] Expense Recognition / Capitalization
 - [ ] Inventory
 - [ ] Long-lived Assets
